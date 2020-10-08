@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Baloo Tammudu 2', cursive; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background-color: rgb(245, 250, 199);
+    font-size: 16px;
+    
+}
+#header-nav{
+    background-color: rgb(151, 9, 9);
+    border-radius: 0;
+    border: 0;
+}
+#logo-img{
+    background: url('royaltadka.png') no-repeat;
+    width: 140px;
+    height: 140px;
+    /* margin: 5px 10px 5px 0; */
+}
+.navbar-brand h1{
+    font-size:50px;
+    padding-left: 15px;
+    color: aliceblue;
+    font-weight: bold;
+    text-shadow: 2.5px 2.5px 2.5px rgb(26, 25, 25);
+    line-height: .75;
+    margin-top: 35px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+h3{
+    text-align: center;
+    font-size: 70px;
+    color: black;
+    font-weight: bold;
+}
+h5{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.para{
+    color:rgb(99, 6, 6) ;
+    border: 1px solid transparent;
+    background-color: rgb(177, 174, 174);
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.nav-header button.nav-toggle,.navbar-header .icon-bar{
+    border:1px solid rgb(245, 245, 28);
+}
+.nav-header button.nav-toggle{
+    clear:both;
+    margin top:-30px
+}
+#nav-list a{
+    color: rgb(255, 255, 226);
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#nav-list a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+/* @media(min-width: 768px){
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+} */
